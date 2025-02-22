@@ -1,18 +1,23 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+## TYPO3 v6.2
+# Ignore several upload and file directories.
+/fileadmin/user_upload/
+/fileadmin/_temp_/
+/fileadmin/_processed_/
+/uploads/
+# Ignore cache
+/typo3conf/temp_CACHED*
+/typo3conf/temp_fieldInfo.php
+/typo3conf/deprecation_*.log
+/typo3conf/ENABLE_INSTALL_TOOL
+/typo3conf/realurl_autoconf.php
+/FIRST_INSTALL
+# Ignore system folders, you should have them symlinked.
+# If not comment out the following entries.
+/typo3
+/typo3_src
+/typo3_src-*
+/Packages
+/.htaccess
+/index.php
+# Ignore temp directory.
+/typo3temp/
